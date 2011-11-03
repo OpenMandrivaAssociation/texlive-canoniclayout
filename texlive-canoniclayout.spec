@@ -1,5 +1,11 @@
+# revision 21155
+# category Package
+# catalog-ctan undef
+# catalog-date undef
+# catalog-license undef
+# catalog-version undef
 Name:		texlive-canoniclayout
-Version:	20111101
+Version:	20111103
 Release:	1
 Summary:	TeXLive canoniclayout package
 Group:		Publishing
@@ -40,6 +46,7 @@ TeXLive canoniclayout package.
 %doc %{_texmfdistdir}/doc/latex/canoniclayout/canoniclayout.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/canoniclayout/canoniclayout.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ TeXLive canoniclayout package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
