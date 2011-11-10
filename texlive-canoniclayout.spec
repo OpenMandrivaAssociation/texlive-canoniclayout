@@ -1,16 +1,17 @@
-# revision 21155
+# revision 24523
 # category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
+# catalog-ctan /macros/latex/contrib/canoniclayout
+# catalog-date 2011-11-06 17:08:08 +0100
+# catalog-license lppl1.3
+# catalog-version 0.4
 Name:		texlive-canoniclayout
-Version:	20111103
+Epoch:		1
+Version:	0.4
 Release:	1
-Summary:	TeXLive canoniclayout package
+Summary:	Create canonical page layouts with memoir
 Group:		Publishing
-URL:		http://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/canoniclayout
+License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/canoniclayout.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/canoniclayout.doc.tar.xz
 Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/canoniclayout.source.tar.xz
@@ -22,7 +23,9 @@ Conflicts:	texlive-texmf <= 20110705-3
 Conflicts:	texlive-doc <= 20110705-3
 
 %description
-TeXLive canoniclayout package.
+A canonic text layout has specified relations to a circle
+inscribed within the enclosing page. The package allows the
+user to use a canonic layout with the memoir class.
 
 %pre
     %_texmf_mktexlsr_pre
