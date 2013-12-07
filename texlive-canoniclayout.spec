@@ -7,7 +7,7 @@
 Name:		texlive-canoniclayout
 Epoch:		1
 Version:	0.4
-Release:	5
+Release:	6
 Summary:	Create canonical page layouts with memoir
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/canoniclayout
