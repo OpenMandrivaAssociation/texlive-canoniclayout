@@ -4,7 +4,7 @@ Version:	64889
 Release:	2
 Summary:	Create canonical page layouts with memoir
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/canoniclayout
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/canoniclayout
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/canoniclayout.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/canoniclayout.doc.r%{version}.tar.xz
